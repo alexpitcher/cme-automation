@@ -1,0 +1,16 @@
+{
+  "name": "cme-discord-bridge",
+  "version": "1.0.0",
+  "description": "Discord bot bridge that forwards CME commands to n8n webhook",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "axios": "^1.6.5"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
